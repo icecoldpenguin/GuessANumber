@@ -1,0 +1,46 @@
+#guess {
+    padding: 12px 20px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+    cursor: pointer;
+  }
+  
+#guess:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+  }
+
+  .button{
+    font-size: 1.5em;
+    font: bold;
+    padding: 10px 20px;
+    color:white;
+    background-color:hsl(180, 85%, 33%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.button:hover{
+    background-color: orange;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button:disabled {
+    background-color: hsl(180, 64%, 10%);
+}
